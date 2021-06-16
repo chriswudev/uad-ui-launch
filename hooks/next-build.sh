@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd contracts/
+cd ../contracts/
 echo "✅ --- 0 ---"
 yarn
 echo "✅ --- 1 ---"
