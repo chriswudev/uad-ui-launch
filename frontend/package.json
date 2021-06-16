@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "yarn && yarn next dev",
-    "build": "yarn next build",
+    "build": "next build && next export",
     "prestart": "yarn next build",
     "start": "yarn next start",
     "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx",
